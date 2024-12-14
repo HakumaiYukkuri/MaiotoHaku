@@ -1,0 +1,85 @@
+body{
+	background-color: rgb(230, 229, 239);
+	overflow-x: hidden;
+	color: rgb(62, 58, 58);
+}
+
+/*ヘッダー*/
+.header{
+	height: auto;
+	width: 100%;
+	box-shadow: 0 0 10px #dddddd;
+	background-color: rgb(62, 58, 58);
+}
+
+.header-left{
+	float: left;
+	width: 9%;
+}
+.clear{
+	clear: both;
+}
+#headerlogo{
+	width: 90%;
+	height: auto;
+}
+
+/*ネームプレート*/
+.content-namePlate{
+	padding: 20px;
+	border-radius: 1rem;
+	background-color: rgb(206, 215, 220);
+	height: 100%;
+	width: 100%;
+	position: relative;
+	margin-top: 5%
+	
+}
+
+#KanziMaioto{	/*背景舞音フォント*/
+	width: 65%;
+	height: auto;
+}
+
+#TatieBackground{	/*立ち絵の後ろの黒線*/
+	background-color: rgb(62, 58, 58);
+	clip-path: polygon(30%0, 100%0, 100% 100%, 0% 100%);
+	width: 100%;
+	height: 70%;
+	position: absolute;
+	bottom: -10%;
+	left: 35%;
+	opacity: 0;
+}
+
+#MaiotoTatie{	/*立ち絵*/
+	width: 26%;
+	z-index: 1000px;
+	position: absolute;
+	bottom: -10%;
+	left: 60vw;
+	opacity: 0;
+}
+
+#MaiotoName{
+	font-size: 3vmax;
+	position: absolute;
+	top: 20%;
+	right: 7%;
+	opacity: 0;
+	color: rgb(62, 58, 58);
+}
+#Maiotoinfo{
+	border-radius: 1rem;
+	background-color: rgb(206, 215, 220);
+	position: relative;
+	margin-top: 10%
+}
+#infoTexts{
+	font-size: 2vmax;
+	color: rgb(62, 58, 58);
+}
+#Zikosyoukai{
+	position: absolute;
+	top: -50%;
+}
